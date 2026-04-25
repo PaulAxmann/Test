@@ -40,7 +40,6 @@ Nur aufnehmen: M&A, CEO-Wechsel, Massenentlassungen, Gewinnwarnungen, Insolvenze
         model: 'claude-3-5-sonnet-20241022',
         max_tokens: 1500,
         system: SYSTEM,
-        tools: [{ type: 'web_search_20250305', name: 'web_search' }],
         messages: [{ role: 'user', content: `Firma: "${query}"` }]
       })
     });
